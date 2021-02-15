@@ -1,0 +1,46 @@
+In case you delete everything and dont want to type it all
+you can copy this and put it in the db.json file
+{
+  "blogs": [
+    {
+      "title": "What is react for?",
+      "body": "React is used to create responsive, reactive user interfaces with ease. Before react, maintaining dinamic user interfaces could become very complicated very quick. \n\n You define the layouts to be displayed and react takes care of the rest.",
+      "author": "Yuyin",
+      "image": "react.svg",
+      "id": 1,
+      "likes": 75
+    },
+    {
+      "title": "The useState hook",
+      "body": "The useState hook allows us to create variables which can hold information and which react will be watching for changes. Once a change occurs, react will re-render the component with the updated information.",
+      "image": "hook.png",
+      "author": "Yuyin",
+      "id": 2,
+      "likes": 30
+    },
+    {
+      "title": "React components",
+      "body": "A react component is baiscally a function which must always return something, generally a JSX template. It can then be exported to other components to create complex application with reusable components.",
+      "image": "components.png",
+      "author": "Yuyin",
+      "id": 3,
+      "likes": 18
+    },
+    {
+      "title": "Props",
+      "body": "To pass data into our components we can pass it using Props its parent component. In the child component, we can reference the 'props' object to pull the passed information.",
+      "image": "props.png",
+      "author": "Yuyin",
+      "id": 4,
+      "likes": 60
+    },
+    {
+      "title": "JSON-Server",
+      "body": "This application is currently using the JSON-Server tool to emulate a server to which we can make calls to add new blogs. It's an independent tool from react. We can install it by calling \n \n 'npx json-server --data/db.json --port 8000'\n \n In this command we tell the which file to watch as our database, in my case it's inside the data directory. Then specify which port to run on. We choose 8000 because usually the react dev server runs on port 3000. \n\nYou may be wondering why then it's taking an extra second to load info on the homepage.. well, that's just an aritifical timeout added to emulate how to handle the loading using conditional formatting.",
+      "image": "json-server.png",
+      "author": "Yuyin",
+      "id": 5,
+      "likes": 60
+    }
+  ]
+}

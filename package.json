@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.6.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "web-vitals": "^1.1.0"
   },
@@ -45,7 +46,7 @@
   "author": "Yuyin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SoyYuyin/react-mini-blog/issues"
+    "url": "localhost:3000/"
   },
-  "homepage": "https://github.com/SoyYuyin/react-mini-blog#readme"
+  "homepage": ""
 }
