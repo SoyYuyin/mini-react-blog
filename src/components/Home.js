@@ -3,7 +3,7 @@ import useFetch from "../useFetch";
 
 const Home = () => {
   const { data: blogs, isPending, error } = useFetch(
-    "http://localhost:8000/blogs"
+    "https://my-json-server.typicode.com/SoyYuyin/react-mini-blog-server/blogs"
   ); // We use here our custom hook useFetch to pull data and destructure it's returned values into data, isPending and error. We are renaming the 'data' with 'blogs' by using ':'
 
   return (
