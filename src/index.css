@@ -30,6 +30,7 @@
   margin-left: 2rem;
   text-decoration: none;
   padding: 6px;
+  align-self: center;
 }
 
 .navbar a:hover {
